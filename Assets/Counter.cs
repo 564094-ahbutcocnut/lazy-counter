@@ -18,7 +18,7 @@ public class Counter : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             countervalue++;
             counter.text = countervalue.ToString();
