@@ -23,5 +23,10 @@ public class Counter : MonoBehaviour
             countervalue++;
             counter.text = countervalue.ToString();
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            countervalue = 0;
+            counter.text = countervalue.ToString();
+        }
     }
 }
