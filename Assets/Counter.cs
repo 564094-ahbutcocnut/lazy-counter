@@ -6,10 +6,11 @@ using UnityEngine;
 public class Counter : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI counter;
+    [SerializeField] int countervalue;
 
 
 
-    int countervalue = 0;
+    
 
     void start()
     {
